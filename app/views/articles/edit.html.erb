@@ -1,0 +1,6 @@
+<h2>Edit Atricle</h2>
+
+<%= render 'form_articles' %>
+
+<%= link_to 'Delete', article_path(@article), method: :delete, data: {confirm: "Are you sure"} %> |
+<%= link_to 'Home', articles_path %>
